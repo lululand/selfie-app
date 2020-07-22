@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #5fbaa7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div, h1, label, input, button, img, a {
+  padding: 10px;
+}
+
+a {
+  vertical-align: middle;
+  padding: 1rem;
+  background-color: rgb(123, 200, 251);
+  border-radius: 10px;
+}
+
+img {
+  border-color: #000000;
+}
+
+div {
+  background-color: rgb(246, 229, 130);
+}
+
+p, video {
+  padding-left: 10px;
+}
+
+.nav {
+  background-color: aquamarine;
+  margin: 10px;
+}
+
+
+/* body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+} */
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* color: var(--primary-color); */
+}

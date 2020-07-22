@@ -1,0 +1,31 @@
+{
+  "name": "covid19-data-viz",
+  "version": "1.0.0",
+  "description": "A data visualization project using D3, Bulma, and CovidAPI.com by Kirsten Lund",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lululand/covid19-data-viz.git"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "coronavirus",
+    "covid-19"
+  ],
+  "author": "Kirsten Lund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lululand/covid19-data-viz/issues"
+  },
+  "homepage": "https://github.com/lululand/covid19-data-viz#readme",
+  "dependencies": {
+    "expess": "0.0.1-security",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.0"
+  }
+}
