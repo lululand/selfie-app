@@ -1,6 +1,3 @@
-// let key = '9faecf21-a17b-44b8-9038-2aad4c0a773f';
-
-// Coding Train -------------------------------------> 
 const express = require('express');
 const Datastore = require('nedb');
 const { response } = require('express');
@@ -41,11 +38,3 @@ app.post('/api', (request, response) => {
   //   longitude: data.lon
   // }
 });
-
-
-// <-------------------------------------  Coding Train
-
-// prepData('https://api.covid19api.com/summary')
-// .then(resData => {
-//   prepMapChart('#map', resData).then(handleMapUpdate)
-// })git stat
