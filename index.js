@@ -1,9 +1,10 @@
 const express = require('express');
 const Datastore = require('nedb');
-const { response } = require('express');
+const fetch = require('node-fetch');
+require('dotenv').config();
 
 const app = express();
-// const fetch = require('node-fetch');
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Starting server at ${port}`));
 app.use(express.static('public'));
@@ -21,7 +22,6 @@ app.get('/api', (request, response) => {
     response.json(data);
   }) 
 });
-
 
 
 app.post('/api', (request, response) => {
