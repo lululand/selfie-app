@@ -25,6 +25,6 @@
     "expess": "0.0.1-security",
     "express": "^4.17.1",
     "nedb": "^1.8.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
