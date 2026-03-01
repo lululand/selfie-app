@@ -23,7 +23,7 @@
   "homepage": "https://github.com/lululand/selfie-app#readme",
   "dependencies": {
     "expess": "0.0.1-security",
-    "express": "^4.17.1",
+    "express": "^4.22.1",
     "nedb": "^1.8.0",
     "node-fetch": "^2.6.0"
   }
